@@ -100,7 +100,7 @@ gulp.task('oauth', function () {
   return gulp.src('')
     .pipe(
       shell([
-        '[ -f oauth.json ] && echo "Using existing oauth.json." || curl "https://raw.githubusercontent.com/prose/prose/gh-pages/oauth.json" > oauth.json'
+        '[ -f oauth.json ] && echo "Using existing oauth.json." || curl "https://raw.githubusercontent.com/throwern/prose/gh-pages/oauth.json" > oauth.json'
       ])
     );
 });
