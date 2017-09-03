@@ -1,0 +1,6 @@
+{
+  "api": "https://api.github.com",
+  "site": "https://github.com",
+  "clientId": "4391773ccba9f872fb01",
+  "gatekeeperUrl": "https://guarded-oasis-59831.herokuapp.com"
+}
